@@ -1,14 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: printf
- * Return: always 0 (success)
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char string[] = "with proper grammar, but the outcome is a piece of art,\n";
-
-	printf("%s", string);
-Return: (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+		return (0);
 }
