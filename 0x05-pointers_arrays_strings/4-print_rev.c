@@ -8,21 +8,14 @@
 
 void print_rev(char *s)
 {
-	int i;
-	int length;
-	char *s;
+	int index;
 
-	/* calculate the length of string */
-	for (length = 0; s[length] != '\0' ++length)
+	/*finds the length of string without null character*/
+	for (index = 0; s[index] != '\0'; ++index)
+	;
 
-	/* prints length of string in reverse */
-		for (i = length - 1; i >= 0; --i)
-		
-	{
-		_putchar(s[i]);
-	}
-	{
-		_putchar('\n');
-	}
+	/*print char from the last index as you decrement*/
+	for (--index; index >= 0; --index)
+	_putchar(s[index]);
+	_putchar('\n');
 }
-
