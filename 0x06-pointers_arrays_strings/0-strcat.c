@@ -9,8 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	unsigned int i;
-	int j;
+	int i, j;
 
 	i = 0;
 	j = 0;
@@ -20,9 +19,11 @@ char *_strcat(char *dest, char *src)
 	while (src[i] != '\0')
 	{
 		dest[j] = src[i];
-		j++;
-		i++;
+			j++;
+			i++;
 	}
-	dest[j] = '\0';
-	return (dest);
+	{
+		dest[j] = '\0';
+		return (dest);
+	}
 }
