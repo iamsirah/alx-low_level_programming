@@ -4,7 +4,7 @@
  * set_string - sets the value of a pointer to a char
  * @s: content to be copied
  * @to: string
- * Return: void
+ * Return: 0
  */
 
 void set_string(char **s, char *to)
